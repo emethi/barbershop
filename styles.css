@@ -149,8 +149,8 @@ header .logo img {
     }
 
     .btn-reserva {
-        padding: 8px 16px; /* Reduz o padding do botão */
-        font-size: 0.9rem; /* Reduz o tamanho da fonte */
+        padding: 6px 12px; /* Reduz o padding do botão */
+        font-size: 0.8rem; /* Reduz o tamanho da fonte */
     }
 
     .nav-menu ul li a {
@@ -184,13 +184,13 @@ header .logo img {
 /* Responsividade da Capa do Site */
 @media (max-width: 768px) {
     .capa h1 {
-        font-size: 3rem; /* Reduz o tamanho da fonte */
+        font-size: 4rem; /* Reduz o tamanho da fonte */
     }
 }
 
 @media (max-width: 480px) {
     .capa h1 {
-        font-size: 2rem; /* Reduz ainda mais o tamanho da fonte */
+        font-size: 3rem; /* Reduz ainda mais o tamanho da fonte */
     }
 }
 
