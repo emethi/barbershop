@@ -187,12 +187,12 @@ header .logo img {
 
 @media (max-width: 768px) {
     .capa {
-        min-height: 80vh; /* Ajusta a altura para telas menores */
+        min-height: 100vh; /* Ajusta a altura para telas menores */
     }
     
     .capa h1 {
         font-size: 4rem;
-        margin-top: -10px; /* Sobe o título */
+        margin-top: -20px; /* Sobe o título */
     }
 }
 
