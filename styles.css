@@ -193,6 +193,10 @@ header .logo img {
         font-size: 3rem; /* Reduz ainda mais o tamanho da fonte */
     }
 }
+.capa .container {
+    position: relative;
+    z-index: 1;
+}
 
 /* ==================== Rodapé ==================== */
 footer {
