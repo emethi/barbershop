@@ -184,29 +184,28 @@ header .logo img {
 }
 
 /* Responsividade da Capa do Site */
-
 @media (max-width: 768px) {
     .capa {
-        min-height: 100vh; /* Ajusta a altura para telas menores */
+        min-height: 85vh; /* Ajusta a altura da capa */
     }
-    
+
     .capa h1 {
         font-size: 4rem;
-        margin-top: -40px; /* Sobe o título */
+        margin-top: -20px; /* Sobe o título */
     }
 }
 
 @media (max-width: 480px) {
     .capa {
-        min-height: 70vh;
-    }
-    
-    .capa h1 {
-        font-size: 3rem;
-        margin-top: -50px; /* Ajusta ainda mais o posicionamento */
+        min-height: 75vh;
     }
 
+    .capa h1 {
+        font-size: 3rem;
+        margin-top: -40px; /* Sobe ainda mais o título */
+    }
 }
+
 
 /* ==================== Rodapé ==================== */
 footer {
