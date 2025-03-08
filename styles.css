@@ -184,7 +184,8 @@ header .logo img {
 /* Responsividade da Capa do Site */
 @media (max-width: 768px) {
     .capa h1 {
-        font-size: 4rem; /* Reduz o tamanho da fonte */
+        font-size: 5rem; /* Reduz o tamanho da fonte */
+        margin-bottom: -10px;
     }
 }
 
