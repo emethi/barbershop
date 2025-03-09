@@ -64,6 +64,9 @@ header .logo img {
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
+    background-size: cover; /* Para o desktop */
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .servicos-assinatura h2 {
@@ -83,24 +86,37 @@ header .logo img {
     padding-bottom: 5px;
 }
 
+
 /* Responsividade da Seção de Serviços */
 @media (max-width: 768px) {
     .servicos-assinatura {
         text-align: center;
-        padding: 20px 5%;
+        padding: 20px 5%; /* Reduzi o padding vertical para economizar espaço */
         justify-content: center;
         min-height: auto;
+        background-size: contain; /* Faz a imagem caber completamente no contêiner */
+        background-position: center;
+        background-repeat: no-repeat; /* Evita repetição da imagem */
     }
 
     .servicos-assinatura h2 {
-        font-size: 1.5rem;
+        font-size: 1.5rem; /* Reduzi um pouco para melhor proporção no mobile */
+    }
+
+    .servicos-assinatura ul {
+        list-style: none; /* Remove marcadores, se aplicável */
+        padding: 0; /* Remove padding padrão */
+        margin: 0; /* Remove margem padrão */
+        display: flex;
+        flex-direction: column; /* Empilha os itens verticalmente */
+        align-items: center; /* Centraliza os itens */
     }
 
     .servicos-assinatura li {
-        font-size: 0.8rem;
+        font-size: 1rem; /* Mantive o tamanho que você definiu */
+        margin-bottom: 10px; /* Espaço entre os itens da lista */
     }
 }
-
 /* ==================== Galeria de Imagens ==================== */
 .galeria {
     margin: 40px auto;
