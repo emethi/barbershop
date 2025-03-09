@@ -77,7 +77,7 @@ header .logo img {
 /* Estilizando a lista */
 .servicos-assinatura ul {
     list-style: none;
-    padding: 0;
+    padding: 10;
 }
 
 .servicos-assinatura li {
