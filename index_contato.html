@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de contato da Barbearia do Jan">
+    <title>Contato - Barbearia do Jan</title>
+    <link rel="stylesheet" href="styles_contato.css">
+    <!-- Font Awesome para ícones das redes sociais -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho Fixo -->
+    <header class="cabecalho-fixo">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="img/DesignerF.png" alt="Logo da Barbearia">
+            </a>
+        </div>
+    </header>
+
+    <!-- Seção de Contato -->
+    <section class="contato">
+        <div class="container">
+            <h1>Contato</h1>
+            <form class="formulario-contato">
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="campo">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <section class="redes-sociais">
+        <div class="container">
+            <h2>Siga-nos nas Redes Sociais</h2>
+            <div class="icones-redes">
+                <a href="https://wa.me/seunumerodewhatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp whatsapp-icon"></i>
+                </a>
+                <a href="https://instagram.com/seuinstagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <i class="fab fa-instagram instagram-icon"></i>
+                </a>
+                <a href="https://facebook.com/seufacebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <i class="fab fa-facebook facebook-icon"></i>
+                </a>
+                <a href="https://youtube.com/seuyoutube" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                    <i class="fab fa-youtube youtube-icon"></i>
+                </a>
+                <a href="https://tiktok.com/seutiktok" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                    <i class="fab fa-tiktok tiktok-icon"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 | Barbearia do Jan. Todos os direitos reservados. Site feito por Eme Dev.</p>
+            <p>NOSSOS PRODUTOS E SERVIÇOS ESTÃO DISPONÍVEIS A TODOS OS MEMBROS DO PÚBLICO, INDEPENDENTEMENTE DE RAÇA, GÊNERO OU ORIENTAÇÃO SEXUAL.</p>
+        </div>
+    </footer>
+</body>
+</html>
