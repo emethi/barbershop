@@ -91,7 +91,7 @@ header .logo img {
 @media (max-width: 768px) {
     .servicos-assinatura {
         text-align: center;
-        padding: 20px 5%; /* Reduzi o padding vertical para economizar espaço */
+        padding: 30px 5%; /* Reduzi o padding vertical para economizar espaço */
         justify-content: center;
         min-height: auto;
         background-size: contain; /* Faz a imagem caber completamente no contêiner */
@@ -100,7 +100,7 @@ header .logo img {
     }
 
     .servicos-assinatura h2 {
-        font-size: 1.5rem; /* Reduzi um pouco para melhor proporção no mobile */
+        font-size: 1.2rem; /* Reduzi um pouco para melhor proporção no mobile */
     }
 
     .servicos-assinatura ul {
@@ -113,8 +113,8 @@ header .logo img {
     }
 
     .servicos-assinatura li {
-        font-size: 1rem; /* Mantive o tamanho que você definiu */
-        margin-bottom: 10px; /* Espaço entre os itens da lista */
+        font-size: 0.8rem; /* Mantive o tamanho que você definiu */
+        margin-bottom: 5px; /* Espaço entre os itens da lista */
     }
 }
 /* ==================== Galeria de Imagens ==================== */
