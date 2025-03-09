@@ -223,3 +223,156 @@ footer {
         font-size: 0.9rem; /* Reduz o tamanho da fonte */
     }
 }
+/* ==================== Informação ==================== */
+/* Estilos gerais */
+.informacoes {
+    font-family: Arial, sans-serif;
+    max-width: 800px; /* Aumentei a largura para PC */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.informacoes h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.informacoes h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Container principal para endereço, funcionamento e mapa */
+.conteudo-principal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaço entre os elementos */
+    margin-bottom: 20px;
+}
+
+/* Endereço e Funcionamento na mesma linha */
+.endereco-funcionamento {
+    flex: 1; /* Ocupa o espaço disponível */
+    min-width: 250px; /* Largura mínima para evitar quebras */
+}
+
+.endereco address {
+    font-style: normal;
+    line-height: 1.6;
+    color: #666;
+}
+
+.funcionamento p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Mapa ao lado do endereço e funcionamento */
+.mapa {
+    flex: 1; /* Ocupa o espaço disponível */
+    min-width: 250px; /* Largura mínima para evitar quebras */
+}
+
+.mapa-iframe {
+    border: 0; /* Remove a borda do iframe */
+    width: 100%;
+    height: 200px;
+    border-radius: 8px; /* Borda arredondada */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .mapa-iframe {
+        height: 300px; /* Reduz a altura em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .mapa-iframe {
+        height: 200px; /* Altura ainda menor para celulares */
+    }
+}
+/* Container principal das avaliações */
+.avaliacoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para cada avaliação */
+.avaliacao {
+    text-align: center;
+}
+
+.avaliacao a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Estilo para os ícones do Font Awesome */
+.avaliacao .icon {
+    font-size: 40px; /* Tamanho dos ícones */
+}
+
+/* Cor personalizada para o ícone do Google */
+.google-icon {
+    color: #4285F4; /* Azul do Google */
+}
+
+/* Cor personalizada para o ícone do Facebook */
+.facebook-icon {
+    color: #1877F2; /* Azul do Facebook */
+}
+
+/* Estilo para as estrelas */
+.stars {
+    display: flex;
+    gap: 2px;
+    color: #FFD700; /* Amarelo das estrelas */
+}
+
+.stars .fa-star,
+.stars .fa-star-half-alt,
+.stars .far.fa-star {
+    font-size: 16px; /* Tamanho das estrelas */
+}
+
+/* Estilo para as informações de avaliação */
+.rating-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.rating-info .rating {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.rating-info .reviews {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .avaliacoes {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
