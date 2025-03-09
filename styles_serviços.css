@@ -101,7 +101,7 @@ header .logo img {
 
     .servicos-assinatura h2 {
         font-size: 1.2rem; /* Mantive o tamanho da fonte */
-        margin-top: 20px; /* Adicionei margem superior para descer o título */
+        margin-top: 40px; /* Adicionei margem superior para descer o título */
     }
 
     .servicos-assinatura ul {
