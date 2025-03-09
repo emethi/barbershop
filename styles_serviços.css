@@ -87,13 +87,13 @@ header .logo img {
 @media (max-width: 768px) {
     .servicos-assinatura {
         text-align: center;
-        padding: 40px 5%;
+        padding: 40px 3%;
         justify-content: center;
         min-height: auto;
     }
 
     .servicos-assinatura h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .servicos-assinatura li {
