@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Jan's Barbershop</title>
+    <!-- CSS do cabeçalho e estilos gerais -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- CSS específico da página de produtos -->
+    <link rel="stylesheet" href="styles_produtos.css">
+    <!-- Ícones do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <!-- Ícone do menu hambúrguer -->
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <!-- Logo centralizada -->
+            <a href="index.html" class="logo">
+                <img src="img/DesignerF.png" alt="Jan's Barbershop Logo">
+            </a>
+
+
+        </div>
+    </header>
+
+    <!-- Menu Suspenso -->
+    <nav class="nav-menu" id="nav-menu">
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="index_serviços.html">Nossos Serviços</a></li>
+            <li><a href="index_sobre.html">Sobre Nós</a></li>
+            <li><a href="index_contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main class="produtos-container">
+        <h1>Nossos Produtos</h1>
+        <div class="produtos-grid" id="produtos-grid">
+            <!-- Produtos serão inseridos aqui via JavaScript -->
+        </div>
+    </main>
+
+    <!-- Carrinho de Compras -->
+    <aside class="carrinho" id="carrinho">
+        <h2>Carrinho de Compras</h2>
+        <ul id="carrinho-lista">
+            <!-- Itens do carrinho serão inseridos aqui -->
+        </ul>
+        <p>Total: <span id="carrinho-total">R$ 0,00</span></p>
+        <button id="finalizar-compra" onclick="finalizarCompra()">Finalizar Compra</button>
+    </aside>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 | Barbearia do Jan. Todos os direitos reservados. Site feito por Eme Dev.</p>
+            <p>NOSSOS PRODUTOS E SERVIÇOS ESTÃO DISPONÍVEIS A TODOS OS MEMBROS DO PÚBLICO, INDEPENDENTEMENTE DE RAÇA, GÊNERO OU ORIENTAÇÃO SEXUAL.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script> <!-- Script do cabeçalho -->
+    <script src="script_produtos.js"></script> <!-- Script da página de produtos -->
+</body>
+</html>

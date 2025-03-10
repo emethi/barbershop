@@ -1,0 +1,157 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/Designer1.png'); /* Imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Seção de Contato */
+.contato {
+    padding-top: 100px; /* Espaço para o cabeçalho fixo */
+    text-align: center;
+}
+
+.contato h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff; /* Cor do título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.formulario-contato {
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo semi-transparente */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.campo {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campo input,
+.campo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.campo textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Seção Redes Sociais */
+.redes-sociais {
+    text-align: center;
+    padding: 40px 0;
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo semi-transparente */
+}
+
+.redes-sociais h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.icones-redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icones-redes a {
+    font-size: 50px;
+    transition: color 0.3s ease;
+}
+
+/* Cores personalizadas para os ícones */
+.whatsapp-icon {
+    color: #25D366; /* Verde do WhatsApp */
+}
+
+.instagram-icon {
+    color: #E4405F; /* Rosa do Instagram */
+}
+
+.facebook-icon {
+    color: #1877F2; /* Azul do Facebook */
+}
+
+.youtube-icon {
+    color: #FF0000; /* Vermelho do YouTube */
+}
+
+.tiktok-icon {
+    color: #000000; /* Preto do TikTok */
+}
+
+/* Efeito hover */
+.whatsapp-icon:hover {
+    color: #128C7E; /* Verde mais escuro para hover */
+}
+
+.instagram-icon:hover {
+    color: #C13584; /* Rosa mais escuro para hover */
+}
+
+.facebook-icon:hover {
+    color: #115293; /* Azul mais escuro para hover */
+}
+
+.youtube-icon:hover {
+    color: #CC0000; /* Vermelho mais escuro para hover */
+}
+
+.tiktok-icon:hover {
+    color: #333333; /* Cinza para hover */
+}
+/* ==================== Rodapé ==================== */
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+/* Responsividade do Rodapé */
+@media (max-width: 768px) {
+    footer p {
+        font-size: 0.9rem; /* Reduz o tamanho da fonte */
+    }
+}

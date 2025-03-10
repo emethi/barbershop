@@ -1,0 +1,173 @@
+/* ==================== Estilos Gerais ==================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding e bordas não aumentem o tamanho do elemento */
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Evita rolagem horizontal */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #e6e6e6;
+    background-color: #000000; /* Fundo preto para toda a página */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* ==================== Seção de Serviços ==================== */
+.servicos-assinatura {
+    background: url('img/DesignerSS.png') no-repeat center center/cover;
+    color: #e6e6e6;
+    text-align: right;
+    padding: 80px 10%;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-size: cover; /* Para o desktop */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.servicos-assinatura h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Estilizando a lista */
+.servicos-assinatura ul {
+    list-style: none;
+    padding: 10;
+}
+
+.servicos-assinatura li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+/* Responsividade da Seção de Serviços */
+
+@media (max-width: 768px) {
+    .servicos-assinatura {
+        text-align: center;
+        padding: 60px 5% 30px; /* Aumentei o padding superior para 60px */
+        justify-content: center;
+        min-height: auto;
+        background-size: contain; /* Faz a imagem caber completamente no contêiner */
+        background-position: center;
+        background-repeat: no-repeat; /* Evita repetição da imagem */
+    }
+
+    .servicos-assinatura h2 {
+        font-size: 1.2rem; /* Mantive o tamanho da fonte */
+        margin-top: 40px; /* Adicionei margem superior para descer o título */
+    }
+
+    .servicos-assinatura ul {
+        list-style: none; /* Remove marcadores, se aplicável */
+        padding: 0; /* Remove padding padrão */
+        margin: 10px 0 0; /* Adicionei uma margem superior de 10px para a lista */
+        display: flex;
+        flex-direction: column; /* Empilha os itens verticalmente */
+        align-items: center; /* Centraliza os itens */
+    }
+
+    .servicos-assinatura li {
+        font-size: 0.8rem; /* Mantive o tamanho que você definiu */
+        margin-bottom: 5px; /* Espaço entre os itens da lista */
+    }
+}
+
+/* ==================== Galeria de Imagens ==================== */
+.galeria {
+    margin: 40px auto;
+    background-color: #b03f0a;
+    padding: 20px;
+}
+.galeria h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.imagens img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+/* Responsividade da Galeria */
+@media (max-width: 768px) {
+    .imagens {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagens img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+}
+
+/* ==================== Depoimentos ==================== */
+.depoimentos {
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.depoimentos blockquote {
+    font-style: italic;
+    margin: 10px auto;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.depoimentos cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+/* Responsividade dos Depoimentos */
+@media (max-width: 768px) {
+    .depoimentos blockquote {
+        width: 90%;
+    }
+}
+/* ==================== Rodapé ==================== */
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+/* Responsividade do Rodapé */
+@media (max-width: 768px) {
+    footer p {
+        font-size: 0.9rem; /* Reduz o tamanho da fonte */
+    }
+}
